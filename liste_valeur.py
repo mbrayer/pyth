@@ -2,7 +2,7 @@
 import random
 tableau_jeu=[]
 
-#init de la liste de 10 elements
+#init de la liste de 10 elements avec le module random
 for i in range(0,10):
 	tableau_jeu.append(random.randint(1,10))
 
